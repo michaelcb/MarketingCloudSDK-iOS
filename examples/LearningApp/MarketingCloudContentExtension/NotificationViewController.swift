@@ -7,14 +7,17 @@
 //
 
 
+import UIKit
+import UserNotifications
+import UserNotificationsUI
 import MCExtensionSDK
 
 class NotificationViewController: SFMCNotificationViewController { 
     override func sfmcProvideConfig() -> SFContentExtensionConfig {
         var logLevel: LogLevel = .none
-#if DEBUG
+//#if DEBUG
         logLevel = .debug
-#endif
+//#endif
         return SFContentExtensionConfig(logLevel: logLevel, timeoutIntervalForRequest: 30.0)
     }
 }

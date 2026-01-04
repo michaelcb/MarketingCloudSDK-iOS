@@ -8,7 +8,6 @@
 import UIKit
 import SFMCSDK
 import MarketingCloudSDK
-import MobileAppMessagingSDK
 
 class ToggleCell: UITableViewCell {
     
@@ -93,10 +92,7 @@ class ToggleCell: UITableViewCell {
             }
             
         case .mobileAppMessagingAnalytics:
-            MobileAppMessaging.requestSdk { [weak self] mam in
-                let isOn = mam?.isAnalyticsEnabled() ?? false
-                self?.updateToggle(isOn: isOn)
-            }
+            break
             
         case .piAnalytics:
             MarketingCloudSdk.requestSdk { [weak self] mp in
@@ -129,9 +125,7 @@ class ToggleCell: UITableViewCell {
             }
             
         case .mobileAppMessagingAnalytics:
-            MobileAppMessaging.requestSdk { mam in
-                mam?.setAnalyticsEnabled(enabled)
-            }
+            break
             
         case .piAnalytics:
             MarketingCloudSdk.requestSdk { mp in

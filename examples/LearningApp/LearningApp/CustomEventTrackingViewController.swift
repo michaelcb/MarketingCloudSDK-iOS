@@ -105,6 +105,11 @@ class CustomEventTrackingViewController: UIViewController {
     
     // MARK: - Actions
     
+    /// Presents a view controller for creating a new custom event.
+    /// 
+    /// This method initializes a `CustomEventViewController`, sets its `onSave` closure to handle saving the new event,
+    /// and presents it modally in a navigation controller. When the event is saved, it is appended to the list of saved events,
+    /// persisted using `CustomEventStorage`, and the table view is reloaded to reflect the changes.
     @objc private func createNewEvent() {
         let vc = CustomEventViewController()
         vc.onSave = { [weak self] event in

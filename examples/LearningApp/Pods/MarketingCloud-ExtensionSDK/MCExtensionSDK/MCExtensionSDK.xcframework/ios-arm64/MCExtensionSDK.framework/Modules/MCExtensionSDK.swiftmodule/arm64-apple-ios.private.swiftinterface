@@ -1,0 +1,46 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MCExtensionSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import Compression
+import DeveloperToolsSupport
+import Foundation
+@_exported import MCExtensionSDK
+import Swift
+import SwiftUI
+import UIKit
+import UserNotifications
+import UserNotificationsUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+@objc(SFMCNotificationServiceConfig) final public class SFNotificationServiceConfig : ObjectiveC.NSObject {
+  @objc final public let logLevel: MCExtensionSDK.LogLevel
+  @objc final public let shouldShowCarouselThumbnail: Swift.Bool
+  @objc public init(logLevel: MCExtensionSDK.LogLevel = .none, shouldShowCarouselThumbnail: Swift.Bool = true)
+  @objc deinit
+}
+@objc(SFMCExtensionSdkLogLevel) public enum LogLevel : Swift.Int {
+  case debug
+  case warn
+  case error
+  case fault
+  case none
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension MCExtensionSDK.LogLevel : Swift.Comparable {
+  public static func < (left: MCExtensionSDK.LogLevel, right: MCExtensionSDK.LogLevel) -> Swift.Bool
+}
+@objc(SFMCContentExtensionConfig) final public class SFContentExtensionConfig : ObjectiveC.NSObject {
+  @objc final public let logLevel: MCExtensionSDK.LogLevel
+  @objc final public let timeoutIntervalForRequest: Foundation.TimeInterval
+  @objc public init(logLevel: MCExtensionSDK.LogLevel = .none, timeoutIntervalForRequest: Foundation.TimeInterval)
+  @objc deinit
+}
+extension MCExtensionSDK.LogLevel : Swift.Hashable {}
+extension MCExtensionSDK.LogLevel : Swift.RawRepresentable {}

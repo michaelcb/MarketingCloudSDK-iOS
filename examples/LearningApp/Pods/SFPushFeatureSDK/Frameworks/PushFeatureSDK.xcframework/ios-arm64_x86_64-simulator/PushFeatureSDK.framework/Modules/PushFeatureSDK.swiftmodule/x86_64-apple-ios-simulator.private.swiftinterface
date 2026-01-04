@@ -1,0 +1,69 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PushFeatureSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import Foundation
+@_exported import PushFeatureSDK
+import SFMCSDK
+import Swift
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @objc(SFPushFeatureConfig) public class PushFeatureConfig : ObjectiveC.NSObject, SFMCSDK.ModuleConfig {
+  @objc final public let trackScreens: Swift.Bool
+  @objc final public let name: SFMCSDK.ModuleName
+  @objc final public let appId: Swift.String
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(SFPushFeatureConfigBuilder) public class PushFeatureConfigBuilder : ObjectiveC.NSObject {
+  @discardableResult
+  @objc public func build() -> PushFeatureSDK.PushFeatureConfig
+  @discardableResult
+  @objc public func setApplicationControlsBadging(_ enabled: Swift.Bool) -> PushFeatureSDK.PushFeatureConfigBuilder
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(SFPushFeature) final public class PushFeature : ObjectiveC.NSObject, SFMCSDK.SFMCModule, SFMCSDK.Subscriber, SFMCSDK.Publisher {
+  @objc final public var name: SFMCSDK.ModuleName
+  @objc public static var moduleVersion: Swift.String
+  @objc public static var stateProperties: [Swift.String : Swift.String]? {
+    @objc get
+    @objc set
+  }
+  @objc public static let logger: SFMCSDK.ModuleLogger
+  @objc public static func initModule(config: any SFMCSDK.ModuleConfig, components: SFMCSDK.SFMCSdkComponents) -> (any SFMCSDK.SFMCModule)?
+  @objc public static func requestSdk(_ callback: @escaping (_ pushFeature: (any PushFeatureSDK.PushFeatureApi)?) -> Swift.Void)
+  @objc final public func receive(message: SFMCSDK.Message)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension PushFeatureSDK.PushFeature : PushFeatureSDK.PushFeatureApi {
+  @objc final public func setDeviceToken(_ deviceToken: Foundation.Data)
+  @objc final public func deviceToken() -> Swift.String?
+  @objc final public func setPushEnabled(pushEnabled: Swift.Bool)
+  @objc final public func isPushEnabled() -> Swift.Bool
+  @objc final public func setNotificationResponse(_ response: UserNotifications.UNNotificationResponse)
+  @objc final public func notificationResponse() -> UserNotifications.UNNotificationResponse?
+  @objc final public func setNotificationUserInfo(_ userInfo: [Swift.AnyHashable : Any])
+  @objc final public func notificationUserInfo() -> [Swift.AnyHashable : Any]
+  @objc final public func setURLHandlingDelegate(_ delegate: any SFMCSDK.URLHandlingDelegate)
+}
+extension PushFeatureSDK.PushFeature : SFMCSDK.PushFeatureProtocol {
+  @objc final public func getIdentity() -> (any SFMCSDK.ModuleIdentity)?
+  @_spi(PrivateTearDown) @objc final public func internalTearDown()
+}
+extension PushFeatureSDK.PushFeature {
+  @_spi(PrivateTearDown) @objc public static func tearDownModule()
+}
+@objc(SFPushFeatureApi) public protocol PushFeatureApi {
+  @objc func setDeviceToken(_ deviceToken: Foundation.Data)
+  @objc func deviceToken() -> Swift.String?
+  @objc func setPushEnabled(pushEnabled: Swift.Bool)
+  @objc func isPushEnabled() -> Swift.Bool
+  @objc func setNotificationResponse(_ response: UserNotifications.UNNotificationResponse)
+  @objc func notificationResponse() -> UserNotifications.UNNotificationResponse?
+  @objc func setNotificationUserInfo(_ userInfo: [Swift.AnyHashable : Any])
+  @objc func notificationUserInfo() -> [Swift.AnyHashable : Any]
+  @objc func setURLHandlingDelegate(_ delegate: any SFMCSDK.URLHandlingDelegate)
+}

@@ -1,0 +1,11 @@
+framework module MCExtensionSDK {
+  umbrella header "MCExtensionSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module MCExtensionSDK.Swift {
+  header "MCExtensionSDK-Swift.h"
+  requires objc
+}

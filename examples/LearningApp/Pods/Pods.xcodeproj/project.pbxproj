@@ -1,0 +1,1315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1C116E04444E7CCB100B6CB1ACDA1BD9 /* MarketingCloud-ExtensionSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9E484E386CDF761B1A5948E6E3EE29F6 /* Build configuration list for PBXAggregateTarget "MarketingCloud-ExtensionSDK" */;
+			buildPhases = (
+				4B533DEB1CBA83F44F9E58F64607CAC2 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "MarketingCloud-ExtensionSDK";
+			productName = "MarketingCloud-ExtensionSDK";
+		};
+		4D26E17E1A88842BB87D3100FF6D829A /* MarketingCloudSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0DF39EDFE1444A0C0C9A38A089695FB8 /* Build configuration list for PBXAggregateTarget "MarketingCloudSDK" */;
+			buildPhases = (
+				95C6943D6AAA92EC1CE0EEC61DF791E8 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				A9C1AA63F26039FC8DB63C5141239FFC /* PBXTargetDependency */,
+			);
+			name = MarketingCloudSDK;
+			productName = MarketingCloudSDK;
+		};
+		92E1C13909CE7B087C095959AA173954 /* MarketingCloud-SFMCSdk */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A75396E5A68473A615A27D9D2AD11274 /* Build configuration list for PBXAggregateTarget "MarketingCloud-SFMCSdk" */;
+			buildPhases = (
+				927B413AFBD62E56F0DB420770032065 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "MarketingCloud-SFMCSdk";
+			productName = "MarketingCloud-SFMCSdk";
+		};
+		E674B03DD3015F6AF08916183603291F /* SFPushFeatureSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E4D25FD1CD2C6766019A4E69C051DCC3 /* Build configuration list for PBXAggregateTarget "SFPushFeatureSDK" */;
+			buildPhases = (
+				B56FC5355336696D9723FF30C1B69E13 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = SFPushFeatureSDK;
+			productName = SFPushFeatureSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0E972035485B217682524C8EBA431BBF /* Pods-MarketingCloudServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B276BBD26C0D77E0DF093815FB5A491 /* Pods-MarketingCloudServiceExtension-dummy.m */; };
+		20B5F8020A5F2AB65C7DE9144F6CC7F0 /* Pods-MarketingCloudContentExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D56A5327F82A294A360F4EEF69E6ED /* Pods-MarketingCloudContentExtension-dummy.m */; };
+		2D1CA6BBBC153AA926139FAE792A57EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		78B067E146F6CE5B4C5147F86653F3AB /* Pods-LearningApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AFB95650542C175649E8CC44ED55C5 /* Pods-LearningApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		793DA115DFAE89C030DE9D6D4D734E55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		80900BA40580852A114FAFC420602769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		9254080B4D9B318F445EBB6E7126753E /* Pods-MarketingCloudServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE9BCA45F6E0256614FDBC45313031F /* Pods-MarketingCloudServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED5857409CBA4FD0D12E2C8F19F1F7B /* Pods-LearningApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DFC5955593BA3A5F041F7C470916FB /* Pods-LearningApp-dummy.m */; };
+		CD9168816F68186A6640222E496A7964 /* Pods-MarketingCloudContentExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC645BB16FEFE733BF578EDE1DE472A /* Pods-MarketingCloudContentExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34448D2514E99E2E9C5D7633BE8050E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C116E04444E7CCB100B6CB1ACDA1BD9;
+			remoteInfo = "MarketingCloud-ExtensionSDK";
+		};
+		4CBF2314049340659DE9C021350EAC86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92E1C13909CE7B087C095959AA173954;
+			remoteInfo = "MarketingCloud-SFMCSdk";
+		};
+		5ED9E1BC4E9F58CEFACC9BDD552B82A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92E1C13909CE7B087C095959AA173954;
+			remoteInfo = "MarketingCloud-SFMCSdk";
+		};
+		85BEA007EEC12FC842FB0E4C6EF0CB3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D26E17E1A88842BB87D3100FF6D829A;
+			remoteInfo = MarketingCloudSDK;
+		};
+		C63F40FFD2D64716B5ECE3F555E6D8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E674B03DD3015F6AF08916183603291F;
+			remoteInfo = SFPushFeatureSDK;
+		};
+		DC921F1B91AAA7696A6BED4F8D900075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C116E04444E7CCB100B6CB1ACDA1BD9;
+			remoteInfo = "MarketingCloud-ExtensionSDK";
+		};
+		F3080B1FCB852C2C0FFF09F37DF29376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C116E04444E7CCB100B6CB1ACDA1BD9;
+			remoteInfo = "MarketingCloud-ExtensionSDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D56A5327F82A294A360F4EEF69E6ED /* Pods-MarketingCloudContentExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarketingCloudContentExtension-dummy.m"; sourceTree = "<group>"; };
+		04EA7922D3BE4571C0EEB7D6ECBDBF5B /* MarketingCloudSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MarketingCloudSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		054C84F2025591781A2477C73D7F4EEC /* Pods-MarketingCloudContentExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarketingCloudContentExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FE9BCA45F6E0256614FDBC45313031F /* Pods-MarketingCloudServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarketingCloudServiceExtension-umbrella.h"; sourceTree = "<group>"; };
+		15E393D3105E222D52DA74C833007973 /* Pods-LearningApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LearningApp-Info.plist"; sourceTree = "<group>"; };
+		1FC67E1BFAAC3B241F42B7C685191391 /* MarketingCloud-SFMCSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MarketingCloud-SFMCSdk.release.xcconfig"; sourceTree = "<group>"; };
+		274F61BA7A7634FA4F3ADAEC0C48D5FA /* MarketingCloud-SFMCSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MarketingCloud-SFMCSdk.debug.xcconfig"; sourceTree = "<group>"; };
+		2889BF9E327BEF0CE5D9ADBA46E41C70 /* SFMCSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SFMCSDK.xcframework; path = Frameworks/SFMCSDK.xcframework; sourceTree = "<group>"; };
+		2F8E08558C2715802966EC95CD94F3A3 /* Pods_MarketingCloudContentExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketingCloudContentExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B276BBD26C0D77E0DF093815FB5A491 /* Pods-MarketingCloudServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarketingCloudServiceExtension-dummy.m"; sourceTree = "<group>"; };
+		3BE804DB9CE01E77BC1070BDC0532B07 /* SFPushFeatureSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SFPushFeatureSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		431DA4DBFD44A2AC379F2EAC717208CB /* SFPushFeatureSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFPushFeatureSDK.debug.xcconfig; sourceTree = "<group>"; };
+		4AA7F27413AE3FCFB0BBD7328EFBB559 /* Pods-MarketingCloudContentExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarketingCloudContentExtension-Info.plist"; sourceTree = "<group>"; };
+		4F2FEEC4B691F1FBA63294B06626F0B1 /* Pods-LearningApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LearningApp-frameworks.sh"; sourceTree = "<group>"; };
+		5BA020B7D4D985232CA3AE77063ACFAB /* Pods-LearningApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LearningApp.modulemap"; sourceTree = "<group>"; };
+		76DFC5955593BA3A5F041F7C470916FB /* Pods-LearningApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LearningApp-dummy.m"; sourceTree = "<group>"; };
+		7D1FEFB32651E275DD520157A7A48696 /* Pods-MarketingCloudServiceExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarketingCloudServiceExtension-Info.plist"; sourceTree = "<group>"; };
+		820C7F7C1A252298F09F9F13833B1C11 /* Pods-LearningApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LearningApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		83D01592F5CFC5292E2B050F0C8B1043 /* MarketingCloud-SFMCSdk-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MarketingCloud-SFMCSdk-xcframeworks.sh"; sourceTree = "<group>"; };
+		8571F6CC33523EDC9DD82740CC7F47B7 /* SFPushFeatureSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFPushFeatureSDK.release.xcconfig; sourceTree = "<group>"; };
+		884906DD1EF52E490B8F6C6819CB6C5A /* Pods-LearningApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearningApp.release.xcconfig"; sourceTree = "<group>"; };
+		8FA175595AEE1644E580323F638CAE79 /* PushFeatureSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = PushFeatureSDK.xcframework; path = Frameworks/PushFeatureSDK.xcframework; sourceTree = "<group>"; };
+		904192E5143422312F33ACE4386E6AAC /* Pods_MarketingCloudServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketingCloudServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		909AB3A865F02591EECC109213849530 /* Pods-MarketingCloudContentExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarketingCloudContentExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		96F79C724A977DFFFA4EF2798E0DD2CA /* MarketingCloud-ExtensionSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MarketingCloud-ExtensionSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A194E78BA339BEBE62722987D6E83C24 /* Pods-MarketingCloudServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarketingCloudServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AFF077CDD54DB5488DC84962F0E9CBB4 /* MarketingCloud-ExtensionSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MarketingCloud-ExtensionSDK.release.xcconfig"; sourceTree = "<group>"; };
+		B0CEE6D0C28D0C66266D4452029B8199 /* Pods-MarketingCloudServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarketingCloudServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		B9B52780585DBA84F3A73633BD90788D /* Pods-MarketingCloudContentExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarketingCloudContentExtension.modulemap"; sourceTree = "<group>"; };
+		C06589C9AA10458F593FEE34156448C8 /* MCExtensionSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = MCExtensionSDK.xcframework; path = MCExtensionSDK/MCExtensionSDK.xcframework; sourceTree = "<group>"; };
+		C0799B30A982A3EE8B09F56B637151C4 /* Pods-MarketingCloudContentExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarketingCloudContentExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1BA6A8A0BB61D8B5C204F05036AE1FC /* Pods-LearningApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LearningApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4908445C7C9C8323BC4C367DF516D37 /* Pods-LearningApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearningApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C5AFB95650542C175649E8CC44ED55C5 /* Pods-LearningApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LearningApp-umbrella.h"; sourceTree = "<group>"; };
+		CAC645BB16FEFE733BF578EDE1DE472A /* Pods-MarketingCloudContentExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarketingCloudContentExtension-umbrella.h"; sourceTree = "<group>"; };
+		CBD6721CB984466FEDEEAB0D1FC674E2 /* MarketingCloudSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarketingCloudSDK.debug.xcconfig; sourceTree = "<group>"; };
+		CCF148F386A4540FAD34026F20E36152 /* Pods-MarketingCloudServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarketingCloudServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF891103723185ADBFF91588F482669E /* Pods-MarketingCloudServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarketingCloudServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		D09AF92356C0D4EEF09EC19572AABEB9 /* Pods-MarketingCloudServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarketingCloudServiceExtension.modulemap"; sourceTree = "<group>"; };
+		D5CFA0086F4EC9F0312A5C0D5AF7F5B8 /* MarketingCloudSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarketingCloudSDK.release.xcconfig; sourceTree = "<group>"; };
+		E5755118AA5FC4AAFA33D7577469F10E /* Pods_LearningApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D3C2942F028AC898F97964555F8A0D /* Pods-MarketingCloudContentExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarketingCloudContentExtension.release.xcconfig"; sourceTree = "<group>"; };
+		F4E590C78EA29009692E896D53E66E92 /* MarketingCloud-ExtensionSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MarketingCloud-ExtensionSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		FEC26550C4D5107E214D10723B41EAFA /* MarketingCloudSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = MarketingCloudSDK.xcframework; path = MarketingCloudSDK/MarketingCloudSDK.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12061B37B8EA7155E276ACB407A47931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793DA115DFAE89C030DE9D6D4D734E55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263481CD45BBF5F8F070ED20750B68A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1CA6BBBC153AA926139FAE792A57EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4198A38EB5EAA909BD02A24EF93B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80900BA40580852A114FAFC420602769 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0205F097706E6EF31732C00CBE9C72C0 /* MarketingCloud-ExtensionSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1083D7DBCEDC84DB7DAB8C96423E7B81 /* Frameworks */,
+				B43D73DCFE80732B9B51D31627056A6D /* Support Files */,
+			);
+			path = "MarketingCloud-ExtensionSDK";
+			sourceTree = "<group>";
+		};
+		1083D7DBCEDC84DB7DAB8C96423E7B81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C06589C9AA10458F593FEE34156448C8 /* MCExtensionSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15FD3CE34389E7ACA346DBD2D0AEE3F0 /* Pods-LearningApp */ = {
+			isa = PBXGroup;
+			children = (
+				5BA020B7D4D985232CA3AE77063ACFAB /* Pods-LearningApp.modulemap */,
+				C1BA6A8A0BB61D8B5C204F05036AE1FC /* Pods-LearningApp-acknowledgements.markdown */,
+				820C7F7C1A252298F09F9F13833B1C11 /* Pods-LearningApp-acknowledgements.plist */,
+				76DFC5955593BA3A5F041F7C470916FB /* Pods-LearningApp-dummy.m */,
+				4F2FEEC4B691F1FBA63294B06626F0B1 /* Pods-LearningApp-frameworks.sh */,
+				15E393D3105E222D52DA74C833007973 /* Pods-LearningApp-Info.plist */,
+				C5AFB95650542C175649E8CC44ED55C5 /* Pods-LearningApp-umbrella.h */,
+				C4908445C7C9C8323BC4C367DF516D37 /* Pods-LearningApp.debug.xcconfig */,
+				884906DD1EF52E490B8F6C6819CB6C5A /* Pods-LearningApp.release.xcconfig */,
+			);
+			name = "Pods-LearningApp";
+			path = "Target Support Files/Pods-LearningApp";
+			sourceTree = "<group>";
+		};
+		3003BC0E7AD1BCB27913AC4A3333F269 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BE804DB9CE01E77BC1070BDC0532B07 /* SFPushFeatureSDK-xcframeworks.sh */,
+				431DA4DBFD44A2AC379F2EAC717208CB /* SFPushFeatureSDK.debug.xcconfig */,
+				8571F6CC33523EDC9DD82740CC7F47B7 /* SFPushFeatureSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SFPushFeatureSDK";
+			sourceTree = "<group>";
+		};
+		303B012F04FB5C550293FA1001DBAD67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEC26550C4D5107E214D10723B41EAFA /* MarketingCloudSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44D27267676C551A4F818680EE63BE16 /* Pods-MarketingCloudServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D09AF92356C0D4EEF09EC19572AABEB9 /* Pods-MarketingCloudServiceExtension.modulemap */,
+				A194E78BA339BEBE62722987D6E83C24 /* Pods-MarketingCloudServiceExtension-acknowledgements.markdown */,
+				CCF148F386A4540FAD34026F20E36152 /* Pods-MarketingCloudServiceExtension-acknowledgements.plist */,
+				3B276BBD26C0D77E0DF093815FB5A491 /* Pods-MarketingCloudServiceExtension-dummy.m */,
+				7D1FEFB32651E275DD520157A7A48696 /* Pods-MarketingCloudServiceExtension-Info.plist */,
+				0FE9BCA45F6E0256614FDBC45313031F /* Pods-MarketingCloudServiceExtension-umbrella.h */,
+				CF891103723185ADBFF91588F482669E /* Pods-MarketingCloudServiceExtension.debug.xcconfig */,
+				B0CEE6D0C28D0C66266D4452029B8199 /* Pods-MarketingCloudServiceExtension.release.xcconfig */,
+			);
+			name = "Pods-MarketingCloudServiceExtension";
+			path = "Target Support Files/Pods-MarketingCloudServiceExtension";
+			sourceTree = "<group>";
+		};
+		484153D7CBE353F3366B0A80AD7CA948 /* Pods-MarketingCloudContentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B9B52780585DBA84F3A73633BD90788D /* Pods-MarketingCloudContentExtension.modulemap */,
+				054C84F2025591781A2477C73D7F4EEC /* Pods-MarketingCloudContentExtension-acknowledgements.markdown */,
+				C0799B30A982A3EE8B09F56B637151C4 /* Pods-MarketingCloudContentExtension-acknowledgements.plist */,
+				00D56A5327F82A294A360F4EEF69E6ED /* Pods-MarketingCloudContentExtension-dummy.m */,
+				4AA7F27413AE3FCFB0BBD7328EFBB559 /* Pods-MarketingCloudContentExtension-Info.plist */,
+				CAC645BB16FEFE733BF578EDE1DE472A /* Pods-MarketingCloudContentExtension-umbrella.h */,
+				909AB3A865F02591EECC109213849530 /* Pods-MarketingCloudContentExtension.debug.xcconfig */,
+				F1D3C2942F028AC898F97964555F8A0D /* Pods-MarketingCloudContentExtension.release.xcconfig */,
+			);
+			name = "Pods-MarketingCloudContentExtension";
+			path = "Target Support Files/Pods-MarketingCloudContentExtension";
+			sourceTree = "<group>";
+		};
+		4A7D34B0EE6329AB456D2AF36899953F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EA7922D3BE4571C0EEB7D6ECBDBF5B /* MarketingCloudSDK-xcframeworks.sh */,
+				CBD6721CB984466FEDEEAB0D1FC674E2 /* MarketingCloudSDK.debug.xcconfig */,
+				D5CFA0086F4EC9F0312A5C0D5AF7F5B8 /* MarketingCloudSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarketingCloudSDK";
+			sourceTree = "<group>";
+		};
+		6EEB405BEC439CD573C54EA9D7C10BD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA175595AEE1644E580323F638CAE79 /* PushFeatureSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B43D73DCFE80732B9B51D31627056A6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96F79C724A977DFFFA4EF2798E0DD2CA /* MarketingCloud-ExtensionSDK.debug.xcconfig */,
+				AFF077CDD54DB5488DC84962F0E9CBB4 /* MarketingCloud-ExtensionSDK.release.xcconfig */,
+				F4E590C78EA29009692E896D53E66E92 /* MarketingCloud-ExtensionSDK-xcframeworks.sh */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarketingCloud-ExtensionSDK";
+			sourceTree = "<group>";
+		};
+		B874AD02BB52A3805F0737758271B031 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15FD3CE34389E7ACA346DBD2D0AEE3F0 /* Pods-LearningApp */,
+				484153D7CBE353F3366B0A80AD7CA948 /* Pods-MarketingCloudContentExtension */,
+				44D27267676C551A4F818680EE63BE16 /* Pods-MarketingCloudServiceExtension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C313AB63CB82AC4A52BF53B7E7FC0BBB /* SFPushFeatureSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6EEB405BEC439CD573C54EA9D7C10BD2 /* Frameworks */,
+				3003BC0E7AD1BCB27913AC4A3333F269 /* Support Files */,
+			);
+			path = SFPushFeatureSDK;
+			sourceTree = "<group>";
+		};
+		CA2A3D1361DB6382742818EE4DF2BEB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2889BF9E327BEF0CE5D9ADBA46E41C70 /* SFMCSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDB77B9A350896F7AFA6B7021AE6B0C3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83D01592F5CFC5292E2B050F0C8B1043 /* MarketingCloud-SFMCSdk-xcframeworks.sh */,
+				274F61BA7A7634FA4F3ADAEC0C48D5FA /* MarketingCloud-SFMCSdk.debug.xcconfig */,
+				1FC67E1BFAAC3B241F42B7C685191391 /* MarketingCloud-SFMCSdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarketingCloud-SFMCSdk";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E39856338EEEBD7AB29CA01C09FA7616 /* Pods */,
+				E732D790F19195D2C3B7B6F32EBE734D /* Products */,
+				B874AD02BB52A3805F0737758271B031 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E39856338EEEBD7AB29CA01C09FA7616 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0205F097706E6EF31732C00CBE9C72C0 /* MarketingCloud-ExtensionSDK */,
+				EFE5F03AA7021AEDF2394E284ACBB5B7 /* MarketingCloud-SFMCSdk */,
+				F2E7F3597923E12D1425CAD71BEC9BF9 /* MarketingCloudSDK */,
+				C313AB63CB82AC4A52BF53B7E7FC0BBB /* SFPushFeatureSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E732D790F19195D2C3B7B6F32EBE734D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5755118AA5FC4AAFA33D7577469F10E /* Pods_LearningApp.framework */,
+				2F8E08558C2715802966EC95CD94F3A3 /* Pods_MarketingCloudContentExtension.framework */,
+				904192E5143422312F33ACE4386E6AAC /* Pods_MarketingCloudServiceExtension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE5F03AA7021AEDF2394E284ACBB5B7 /* MarketingCloud-SFMCSdk */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A3D1361DB6382742818EE4DF2BEB7 /* Frameworks */,
+				CDB77B9A350896F7AFA6B7021AE6B0C3 /* Support Files */,
+			);
+			path = "MarketingCloud-SFMCSdk";
+			sourceTree = "<group>";
+		};
+		F2E7F3597923E12D1425CAD71BEC9BF9 /* MarketingCloudSDK */ = {
+			isa = PBXGroup;
+			children = (
+				303B012F04FB5C550293FA1001DBAD67 /* Frameworks */,
+				4A7D34B0EE6329AB456D2AF36899953F /* Support Files */,
+			);
+			path = MarketingCloudSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07CC3204475EE13C42B6634789332738 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B067E146F6CE5B4C5147F86653F3AB /* Pods-LearningApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6664E35FC58425BF8C505A800D8F53D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9254080B4D9B318F445EBB6E7126753E /* Pods-MarketingCloudServiceExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74F51EB2CDF4D67CC223D3899697BFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9168816F68186A6640222E496A7964 /* Pods-MarketingCloudContentExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		071DCB9ABB80E3719DFD7665EFD3F879 /* Pods-MarketingCloudServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4FDEFADC3D28CD2EAE8208665D434B /* Build configuration list for PBXNativeTarget "Pods-MarketingCloudServiceExtension" */;
+			buildPhases = (
+				B6664E35FC58425BF8C505A800D8F53D /* Headers */,
+				FB18D03F5BDC3F373C51806B989E2926 /* Sources */,
+				263481CD45BBF5F8F070ED20750B68A1 /* Frameworks */,
+				AE51F67B8F8CD79832E1EB68CE8ADFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD54A8FEE9C38DC3D7CF76F901B0157 /* PBXTargetDependency */,
+			);
+			name = "Pods-MarketingCloudServiceExtension";
+			productName = Pods_MarketingCloudServiceExtension;
+			productReference = 904192E5143422312F33ACE4386E6AAC /* Pods_MarketingCloudServiceExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		17CC8803BA45FF5F67E866B92D8109CA /* Pods-MarketingCloudContentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B94366F35827A45DD21D1E2229C072A /* Build configuration list for PBXNativeTarget "Pods-MarketingCloudContentExtension" */;
+			buildPhases = (
+				B74F51EB2CDF4D67CC223D3899697BFA /* Headers */,
+				57D93AA6B3C470F8307CA46A9659EEE6 /* Sources */,
+				CA4198A38EB5EAA909BD02A24EF93B2B /* Frameworks */,
+				DD4DC8CF0E96E3078AAACF6CF3F1B151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5175BB6245FBAE238BDE5AB82B75C2A /* PBXTargetDependency */,
+			);
+			name = "Pods-MarketingCloudContentExtension";
+			productName = Pods_MarketingCloudContentExtension;
+			productReference = 2F8E08558C2715802966EC95CD94F3A3 /* Pods_MarketingCloudContentExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E987398C121E9225DF127F2966A3FCE /* Pods-LearningApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C5E55E8424FA842CD99BA07809DA94 /* Build configuration list for PBXNativeTarget "Pods-LearningApp" */;
+			buildPhases = (
+				07CC3204475EE13C42B6634789332738 /* Headers */,
+				25220C4D476094BDA66C36FF7657A277 /* Sources */,
+				12061B37B8EA7155E276ACB407A47931 /* Frameworks */,
+				C6A7DE848BC04F1F468B9D73F6537D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50BFF7D4F5335ED84BBF3B682D30398 /* PBXTargetDependency */,
+				0491A84CA89FAB37A8501126C0339F08 /* PBXTargetDependency */,
+				ACDCC399A038A11564E60C3B5CC99985 /* PBXTargetDependency */,
+				BFD695B0BC8431E7D4B7A72FC5D1A05C /* PBXTargetDependency */,
+			);
+			name = "Pods-LearningApp";
+			productName = Pods_LearningApp;
+			productReference = E5755118AA5FC4AAFA33D7577469F10E /* Pods_LearningApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E732D790F19195D2C3B7B6F32EBE734D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C116E04444E7CCB100B6CB1ACDA1BD9 /* MarketingCloud-ExtensionSDK */,
+				92E1C13909CE7B087C095959AA173954 /* MarketingCloud-SFMCSdk */,
+				4D26E17E1A88842BB87D3100FF6D829A /* MarketingCloudSDK */,
+				5E987398C121E9225DF127F2966A3FCE /* Pods-LearningApp */,
+				17CC8803BA45FF5F67E866B92D8109CA /* Pods-MarketingCloudContentExtension */,
+				071DCB9ABB80E3719DFD7665EFD3F879 /* Pods-MarketingCloudServiceExtension */,
+				E674B03DD3015F6AF08916183603291F /* SFPushFeatureSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE51F67B8F8CD79832E1EB68CE8ADFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A7DE848BC04F1F468B9D73F6537D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4DC8CF0E96E3078AAACF6CF3F1B151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B533DEB1CBA83F44F9E58F64607CAC2 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/MarketingCloud-ExtensionSDK/MarketingCloud-ExtensionSDK-xcframeworks-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/MarketingCloud-ExtensionSDK/MarketingCloud-ExtensionSDK-xcframeworks-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/MarketingCloud-ExtensionSDK/MarketingCloud-ExtensionSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		927B413AFBD62E56F0DB420770032065 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/MarketingCloud-SFMCSdk/MarketingCloud-SFMCSdk-xcframeworks-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/MarketingCloud-SFMCSdk/MarketingCloud-SFMCSdk-xcframeworks-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/MarketingCloud-SFMCSdk/MarketingCloud-SFMCSdk-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95C6943D6AAA92EC1CE0EEC61DF791E8 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/MarketingCloudSDK/MarketingCloudSDK-xcframeworks-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/MarketingCloudSDK/MarketingCloudSDK-xcframeworks-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/MarketingCloudSDK/MarketingCloudSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B56FC5355336696D9723FF30C1B69E13 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SFPushFeatureSDK/SFPushFeatureSDK-xcframeworks-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SFPushFeatureSDK/SFPushFeatureSDK-xcframeworks-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/SFPushFeatureSDK/SFPushFeatureSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25220C4D476094BDA66C36FF7657A277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED5857409CBA4FD0D12E2C8F19F1F7B /* Pods-LearningApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D93AA6B3C470F8307CA46A9659EEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B5F8020A5F2AB65C7DE9144F6CC7F0 /* Pods-MarketingCloudContentExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB18D03F5BDC3F373C51806B989E2926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E972035485B217682524C8EBA431BBF /* Pods-MarketingCloudServiceExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0491A84CA89FAB37A8501126C0339F08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MarketingCloud-SFMCSdk";
+			target = 92E1C13909CE7B087C095959AA173954 /* MarketingCloud-SFMCSdk */;
+			targetProxy = 5ED9E1BC4E9F58CEFACC9BDD552B82A6 /* PBXContainerItemProxy */;
+		};
+		A9C1AA63F26039FC8DB63C5141239FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MarketingCloud-SFMCSdk";
+			target = 92E1C13909CE7B087C095959AA173954 /* MarketingCloud-SFMCSdk */;
+			targetProxy = 4CBF2314049340659DE9C021350EAC86 /* PBXContainerItemProxy */;
+		};
+		ACDCC399A038A11564E60C3B5CC99985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarketingCloudSDK;
+			target = 4D26E17E1A88842BB87D3100FF6D829A /* MarketingCloudSDK */;
+			targetProxy = 85BEA007EEC12FC842FB0E4C6EF0CB3D /* PBXContainerItemProxy */;
+		};
+		BFD695B0BC8431E7D4B7A72FC5D1A05C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFPushFeatureSDK;
+			target = E674B03DD3015F6AF08916183603291F /* SFPushFeatureSDK */;
+			targetProxy = C63F40FFD2D64716B5ECE3F555E6D8D3 /* PBXContainerItemProxy */;
+		};
+		C5175BB6245FBAE238BDE5AB82B75C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MarketingCloud-ExtensionSDK";
+			target = 1C116E04444E7CCB100B6CB1ACDA1BD9 /* MarketingCloud-ExtensionSDK */;
+			targetProxy = DC921F1B91AAA7696A6BED4F8D900075 /* PBXContainerItemProxy */;
+		};
+		DFD54A8FEE9C38DC3D7CF76F901B0157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MarketingCloud-ExtensionSDK";
+			target = 1C116E04444E7CCB100B6CB1ACDA1BD9 /* MarketingCloud-ExtensionSDK */;
+			targetProxy = F3080B1FCB852C2C0FFF09F37DF29376 /* PBXContainerItemProxy */;
+		};
+		F50BFF7D4F5335ED84BBF3B682D30398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MarketingCloud-ExtensionSDK";
+			target = 1C116E04444E7CCB100B6CB1ACDA1BD9 /* MarketingCloud-ExtensionSDK */;
+			targetProxy = 34448D2514E99E2E9C5D7633BE8050E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		039070E85C53EE6E5BEA56EE918B450C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4908445C7C9C8323BC4C367DF516D37 /* Pods-LearningApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-LearningApp/Pods-LearningApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LearningApp/Pods-LearningApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		07E37C83E3335841E2223F676A18ED73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D3C2942F028AC898F97964555F8A0D /* Pods-MarketingCloudContentExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarketingCloudContentExtension/Pods-MarketingCloudContentExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarketingCloudContentExtension/Pods-MarketingCloudContentExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0EB1A115C482C135BA16CCC4E2C24D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909AB3A865F02591EECC109213849530 /* Pods-MarketingCloudContentExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarketingCloudContentExtension/Pods-MarketingCloudContentExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarketingCloudContentExtension/Pods-MarketingCloudContentExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27FAB142AE376D35041E8540E9EBB58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC67E1BFAAC3B241F42B7C685191391 /* MarketingCloud-SFMCSdk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34D77990C67AD061078B9E07E520DA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8571F6CC33523EDC9DD82740CC7F47B7 /* SFPushFeatureSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		413E3EF02EC81369E540F454AE62687E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431DA4DBFD44A2AC379F2EAC717208CB /* SFPushFeatureSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		441942A3DCB4F8003FBEEE58C75C529D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD6721CB984466FEDEEAB0D1FC674E2 /* MarketingCloudSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5301CE12A6D0E4BDB3102FAFA7DAFEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CFA0086F4EC9F0312A5C0D5AF7F5B8 /* MarketingCloudSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		863CF310623FB09113AE013803B45400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF891103723185ADBFF91588F482669E /* Pods-MarketingCloudServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarketingCloudServiceExtension/Pods-MarketingCloudServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarketingCloudServiceExtension/Pods-MarketingCloudServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		867ECD7DD14AE2580898ADD6018BCC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF077CDD54DB5488DC84962F0E9CBB4 /* MarketingCloud-ExtensionSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF171C25311D3D81D897033D707A4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274F61BA7A7634FA4F3ADAEC0C48D5FA /* MarketingCloud-SFMCSdk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D311AD546C865CE49298B825923A7B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CEE6D0C28D0C66266D4452029B8199 /* Pods-MarketingCloudServiceExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarketingCloudServiceExtension/Pods-MarketingCloudServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarketingCloudServiceExtension/Pods-MarketingCloudServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E558389B6632AB9A3D42521B852E011F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F79C724A977DFFFA4EF2798E0DD2CA /* MarketingCloud-ExtensionSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F86A36C055952EE201994123272DDE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884906DD1EF52E490B8F6C6819CB6C5A /* Pods-LearningApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-LearningApp/Pods-LearningApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LearningApp/Pods-LearningApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B94366F35827A45DD21D1E2229C072A /* Build configuration list for PBXNativeTarget "Pods-MarketingCloudContentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB1A115C482C135BA16CCC4E2C24D92 /* Debug */,
+				07E37C83E3335841E2223F676A18ED73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF39EDFE1444A0C0C9A38A089695FB8 /* Build configuration list for PBXAggregateTarget "MarketingCloudSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441942A3DCB4F8003FBEEE58C75C529D /* Debug */,
+				5301CE12A6D0E4BDB3102FAFA7DAFEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C5E55E8424FA842CD99BA07809DA94 /* Build configuration list for PBXNativeTarget "Pods-LearningApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039070E85C53EE6E5BEA56EE918B450C /* Debug */,
+				F86A36C055952EE201994123272DDE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E484E386CDF761B1A5948E6E3EE29F6 /* Build configuration list for PBXAggregateTarget "MarketingCloud-ExtensionSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E558389B6632AB9A3D42521B852E011F /* Debug */,
+				867ECD7DD14AE2580898ADD6018BCC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75396E5A68473A615A27D9D2AD11274 /* Build configuration list for PBXAggregateTarget "MarketingCloud-SFMCSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF171C25311D3D81D897033D707A4AF /* Debug */,
+				27FAB142AE376D35041E8540E9EBB58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D25FD1CD2C6766019A4E69C051DCC3 /* Build configuration list for PBXAggregateTarget "SFPushFeatureSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413E3EF02EC81369E540F454AE62687E /* Debug */,
+				34D77990C67AD061078B9E07E520DA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4FDEFADC3D28CD2EAE8208665D434B /* Build configuration list for PBXNativeTarget "Pods-MarketingCloudServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863CF310623FB09113AE013803B45400 /* Debug */,
+				D311AD546C865CE49298B825923A7B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

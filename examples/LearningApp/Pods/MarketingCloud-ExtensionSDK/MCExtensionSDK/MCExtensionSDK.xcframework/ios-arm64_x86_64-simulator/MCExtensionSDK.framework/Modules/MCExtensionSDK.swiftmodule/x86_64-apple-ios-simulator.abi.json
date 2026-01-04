@@ -1,0 +1,3482 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MCExtensionSDK",
+    "printedName": "MCExtensionSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotificationsUI",
+        "printedName": "UserNotificationsUI",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SFNotificationServiceConfig",
+        "printedName": "SFNotificationServiceConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "logLevel",
+            "printedName": "logLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "MCExtensionSDK.LogLevel",
+                "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCNotificationServiceConfig(py)logLevel",
+            "mangledName": "$s14MCExtensionSDK27SFNotificationServiceConfigC8logLevelAA03LogG0Ovp",
+            "moduleName": "MCExtensionSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "MCExtensionSDK.LogLevel",
+                    "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCNotificationServiceConfig(im)logLevel",
+                "mangledName": "$s14MCExtensionSDK27SFNotificationServiceConfigC8logLevelAA03LogG0Ovg",
+                "moduleName": "MCExtensionSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldShowCarouselThumbnail",
+            "printedName": "shouldShowCarouselThumbnail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCNotificationServiceConfig(py)shouldShowCarouselThumbnail",
+            "mangledName": "$s14MCExtensionSDK27SFNotificationServiceConfigC27shouldShowCarouselThumbnailSbvp",
+            "moduleName": "MCExtensionSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCNotificationServiceConfig(im)shouldShowCarouselThumbnail",
+                "mangledName": "$s14MCExtensionSDK27SFNotificationServiceConfigC27shouldShowCarouselThumbnailSbvg",
+                "moduleName": "MCExtensionSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(logLevel:shouldShowCarouselThumbnail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SFNotificationServiceConfig",
+                "printedName": "MCExtensionSDK.SFNotificationServiceConfig",
+                "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCNotificationServiceConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "MCExtensionSDK.LogLevel",
+                "hasDefaultArg": true,
+                "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCNotificationServiceConfig(im)initWithLogLevel:shouldShowCarouselThumbnail:",
+            "mangledName": "$s14MCExtensionSDK27SFNotificationServiceConfigC8logLevel27shouldShowCarouselThumbnailAcA03LogG0O_Sbtcfc",
+            "moduleName": "MCExtensionSDK",
+            "objc_name": "initWithLogLevel:shouldShowCarouselThumbnail:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SFNotificationServiceConfig",
+                "printedName": "MCExtensionSDK.SFNotificationServiceConfig",
+                "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCNotificationServiceConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCNotificationServiceConfig(im)init",
+            "mangledName": "$s14MCExtensionSDK27SFNotificationServiceConfigCACycfc",
+            "moduleName": "MCExtensionSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCNotificationServiceConfig",
+        "mangledName": "$s14MCExtensionSDK27SFNotificationServiceConfigC",
+        "moduleName": "MCExtensionSDK",
+        "objc_name": "SFMCNotificationServiceConfig",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MCExtensionSDK.LogLevel.Type) -> MCExtensionSDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "MCExtensionSDK.LogLevel",
+                    "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MCExtensionSDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "MCExtensionSDK.LogLevel",
+                        "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel@SFMCExtensionSdkLogLevelDebug",
+            "mangledName": "$s14MCExtensionSDK8LogLevelO5debugyA2CmF",
+            "moduleName": "MCExtensionSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "warn",
+            "printedName": "warn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MCExtensionSDK.LogLevel.Type) -> MCExtensionSDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "MCExtensionSDK.LogLevel",
+                    "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MCExtensionSDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "MCExtensionSDK.LogLevel",
+                        "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel@SFMCExtensionSdkLogLevelWarn",
+            "mangledName": "$s14MCExtensionSDK8LogLevelO4warnyA2CmF",
+            "moduleName": "MCExtensionSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MCExtensionSDK.LogLevel.Type) -> MCExtensionSDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "MCExtensionSDK.LogLevel",
+                    "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MCExtensionSDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "MCExtensionSDK.LogLevel",
+                        "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel@SFMCExtensionSdkLogLevelError",
+            "mangledName": "$s14MCExtensionSDK8LogLevelO5erroryA2CmF",
+            "moduleName": "MCExtensionSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "fault",
+            "printedName": "fault",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MCExtensionSDK.LogLevel.Type) -> MCExtensionSDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "MCExtensionSDK.LogLevel",
+                    "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MCExtensionSDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "MCExtensionSDK.LogLevel",
+                        "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel@SFMCExtensionSdkLogLevelFault",
+            "mangledName": "$s14MCExtensionSDK8LogLevelO5faultyA2CmF",
+            "moduleName": "MCExtensionSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MCExtensionSDK.LogLevel.Type) -> MCExtensionSDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "MCExtensionSDK.LogLevel",
+                    "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MCExtensionSDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "MCExtensionSDK.LogLevel",
+                        "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel@SFMCExtensionSdkLogLevelNone",
+            "mangledName": "$s14MCExtensionSDK8LogLevelO4noneyA2CmF",
+            "moduleName": "MCExtensionSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MCExtensionSDK.LogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "MCExtensionSDK.LogLevel",
+                    "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MCExtensionSDK8LogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s14MCExtensionSDK8LogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "MCExtensionSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MCExtensionSDK8LogLevelO8rawValueSivp",
+            "mangledName": "$s14MCExtensionSDK8LogLevelO8rawValueSivp",
+            "moduleName": "MCExtensionSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MCExtensionSDK8LogLevelO8rawValueSivg",
+                "mangledName": "$s14MCExtensionSDK8LogLevelO8rawValueSivg",
+                "moduleName": "MCExtensionSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "MCExtensionSDK.LogLevel",
+                "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "MCExtensionSDK.LogLevel",
+                "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MCExtensionSDK8LogLevelO1loiySbAC_ACtFZ",
+            "mangledName": "$s14MCExtensionSDK8LogLevelO1loiySbAC_ACtFZ",
+            "moduleName": "MCExtensionSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel",
+        "mangledName": "$s14MCExtensionSDK8LogLevelO",
+        "moduleName": "MCExtensionSDK",
+        "objc_name": "SFMCExtensionSdkLogLevel",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Compression",
+        "printedName": "Compression",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotificationsUI",
+        "printedName": "UserNotificationsUI",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SFContentExtensionConfig",
+        "printedName": "SFContentExtensionConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "logLevel",
+            "printedName": "logLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "MCExtensionSDK.LogLevel",
+                "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCContentExtensionConfig(py)logLevel",
+            "mangledName": "$s14MCExtensionSDK24SFContentExtensionConfigC8logLevelAA03LogG0Ovp",
+            "moduleName": "MCExtensionSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "MCExtensionSDK.LogLevel",
+                    "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCContentExtensionConfig(im)logLevel",
+                "mangledName": "$s14MCExtensionSDK24SFContentExtensionConfigC8logLevelAA03LogG0Ovg",
+                "moduleName": "MCExtensionSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeoutIntervalForRequest",
+            "printedName": "timeoutIntervalForRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCContentExtensionConfig(py)timeoutIntervalForRequest",
+            "mangledName": "$s14MCExtensionSDK24SFContentExtensionConfigC25timeoutIntervalForRequestSdvp",
+            "moduleName": "MCExtensionSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCContentExtensionConfig(im)timeoutIntervalForRequest",
+                "mangledName": "$s14MCExtensionSDK24SFContentExtensionConfigC25timeoutIntervalForRequestSdvg",
+                "moduleName": "MCExtensionSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(logLevel:timeoutIntervalForRequest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SFContentExtensionConfig",
+                "printedName": "MCExtensionSDK.SFContentExtensionConfig",
+                "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCContentExtensionConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "MCExtensionSDK.LogLevel",
+                "hasDefaultArg": true,
+                "usr": "c:@M@MCExtensionSDK@E@SFMCExtensionSdkLogLevel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCContentExtensionConfig(im)initWithLogLevel:timeoutIntervalForRequest:",
+            "mangledName": "$s14MCExtensionSDK24SFContentExtensionConfigC8logLevel25timeoutIntervalForRequestAcA03LogG0O_Sdtcfc",
+            "moduleName": "MCExtensionSDK",
+            "objc_name": "initWithLogLevel:timeoutIntervalForRequest:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SFContentExtensionConfig",
+                "printedName": "MCExtensionSDK.SFContentExtensionConfig",
+                "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCContentExtensionConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCContentExtensionConfig(im)init",
+            "mangledName": "$s14MCExtensionSDK24SFContentExtensionConfigCACycfc",
+            "moduleName": "MCExtensionSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MCExtensionSDK@objc(cs)SFMCContentExtensionConfig",
+        "mangledName": "$s14MCExtensionSDK24SFContentExtensionConfigC",
+        "moduleName": "MCExtensionSDK",
+        "objc_name": "SFMCContentExtensionConfig",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "MCExtensionSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CarouselClickModelStore",
+        "printedName": "CarouselClickModelStore",
+        "declKind": "Class",
+        "usr": "c:@M@AppGroupSDK@objc(cs)SFMCCarouselClickModelStore",
+        "mangledName": "$s11AppGroupSDK23CarouselClickModelStoreC",
+        "moduleName": "AppGroupSDK",
+        "objc_name": "SFMCCarouselClickModelStore",
+        "declAttributes": [
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeliveryReceiptsModelStore",
+        "printedName": "DeliveryReceiptsModelStore",
+        "declKind": "Class",
+        "usr": "c:@M@AppGroupSDK@objc(cs)SFMCDeliveryReceiptsModelStore",
+        "mangledName": "$s11AppGroupSDK26DeliveryReceiptsModelStoreC",
+        "moduleName": "AppGroupSDK",
+        "objc_name": "SFMCDeliveryReceiptsModelStore",
+        "declAttributes": [
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppDeviceInfoStore",
+        "printedName": "AppDeviceInfoStore",
+        "declKind": "Class",
+        "usr": "c:@M@AppGroupSDK@objc(cs)SFMCAppDeviceInfoStore",
+        "mangledName": "$s11AppGroupSDK0A15DeviceInfoStoreC",
+        "moduleName": "AppGroupSDK",
+        "objc_name": "SFMCAppDeviceInfoStore",
+        "declAttributes": [
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeatureConfigDetailStore",
+        "printedName": "FeatureConfigDetailStore",
+        "declKind": "Class",
+        "usr": "c:@M@AppGroupSDK@objc(cs)SFMCFeatureConfigDetailStore",
+        "mangledName": "$s11AppGroupSDK24FeatureConfigDetailStoreC",
+        "moduleName": "AppGroupSDK",
+        "objc_name": "SFMCFeatureConfigDetailStore",
+        "declAttributes": [
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 442,
+      "length": 4,
+      "value": "40.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 491,
+      "length": 4,
+      "value": "40.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 551,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 599,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 889,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 935,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1109,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1323,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1968,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2009,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2193,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 2307,
+      "length": 15,
+      "value": "\"failure_image\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2353,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2654,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2793,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/CarouselDefaultValueProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 428,
+      "length": 8,
+      "value": "\"E5E5E5\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/CarouselDefaultValueProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 8,
+      "value": "\"C9C9C9\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/CarouselDefaultValueProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 563,
+      "length": 8,
+      "value": "\"5C5C5C\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/CarouselDefaultValueProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 8,
+      "value": "\"2E2E2E\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/CarouselDefaultValueProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1374,
+      "length": 8,
+      "value": "\"5C5C5C\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/AdvancedPush\/Common\/AdvancedPushProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 521,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/API\/SFNotificationServiceConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1900,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 3,
+      "value": "\"B\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 3,
+      "value": "\"I\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 3,
+      "value": "\"S\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 3,
+      "value": "\"M\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 3,
+      "value": "\"L\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 3,
+      "value": "\"B\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
+      "length": 3,
+      "value": "\"C\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 3,
+      "value": "\"E\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 632,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 802,
+      "length": 5,
+      "value": "\"bgc\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1062,
+      "length": 4,
+      "value": "\"fc\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1091,
+      "length": 4,
+      "value": "\"fz\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1125,
+      "length": 4,
+      "value": "\"an\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1155,
+      "length": 4,
+      "value": "\"fs\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1329,
+      "length": 4,
+      "value": "\"tx\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1355,
+      "length": 3,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1549,
+      "length": 4,
+      "value": "\"ul\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1575,
+      "length": 3,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1602,
+      "length": 4,
+      "value": "\"at\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1906,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1932,
+      "length": 4,
+      "value": "\"md\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1958,
+      "length": 4,
+      "value": "\"ti\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1987,
+      "length": 5,
+      "value": "\"sti\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2016,
+      "length": 4,
+      "value": "\"ac\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2042,
+      "length": 3,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2291,
+      "length": 3,
+      "value": "\"t\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2326,
+      "length": 5,
+      "value": "\"tms\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2353,
+      "length": 3,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2378,
+      "length": 4,
+      "value": "\"it\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2556,
+      "length": 4,
+      "value": "\"vt\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/Network\/Protocol\/ServiceProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/Network\/Protocol\/ServiceProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/Network\/Protocol\/ServiceProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 293,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/Network\/Protocol\/ServiceProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/CarouselPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 574,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 384,
+      "length": 5,
+      "value": "\"_rf\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 5,
+      "value": "\"tms\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 4,
+      "value": "\"vt\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 468,
+      "length": 3,
+      "value": "\"t\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 4,
+      "value": "\"at\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 513,
+      "length": 4,
+      "value": "\"it\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 562,
+      "length": 4,
+      "value": "\"md\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 582,
+      "length": 4,
+      "value": "\"ul\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 3,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 5,
+      "value": "\"bgc\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 662,
+      "length": 4,
+      "value": "\"fs\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 4,
+      "value": "\"fc\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 710,
+      "length": 4,
+      "value": "\"ti\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 5,
+      "value": "\"sti\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 757,
+      "length": 4,
+      "value": "\"tx\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 782,
+      "length": 4,
+      "value": "\"fz\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 808,
+      "length": 4,
+      "value": "\"an\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/CarouselFieldName.swift",
+      "kind": "StringLiteral",
+      "offset": 832,
+      "length": 4,
+      "value": "\"ac\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/NewEvents\/Modules\/MAM\/MAMDeliveryReceiptRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1737,
+      "length": 52,
+      "value": "\"\/platform\/messaging\/mobileapp\/v1\/events\/engagement\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/Worker\/NotificationServiceWorker.swift",
+      "kind": "Array",
+      "offset": 490,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/Worker\/NotificationServiceWorker.swift",
+      "kind": "Array",
+      "offset": 541,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 296,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 341,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "FloatLiteral",
+      "offset": 394,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "FloatLiteral",
+      "offset": 441,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "FloatLiteral",
+      "offset": 486,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "FloatLiteral",
+      "offset": 532,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "FloatLiteral",
+      "offset": 579,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "FloatLiteral",
+      "offset": 638,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "FloatLiteral",
+      "offset": 692,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "FloatLiteral",
+      "offset": 735,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "FloatLiteral",
+      "offset": 793,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "FloatLiteral",
+      "offset": 838,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "FloatLiteral",
+      "offset": 890,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1052,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1098,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1296,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1741,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1913,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselPanelView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2135,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 46,
+      "value": "\"com.salesforce.marketingcloud.MCExtensionSDK\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 17,
+      "value": "\"{mcsdk_version}\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 383,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 449,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 761,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 6,
+      "value": "\"_sid\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 838,
+      "length": 4,
+      "value": "\"_m\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 866,
+      "length": 5,
+      "value": "\"_mt\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
+      "length": 4,
+      "value": "\"_r\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 921,
+      "length": 5,
+      "value": "\"_pb\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 951,
+      "length": 5,
+      "value": "\"_co\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1010,
+      "length": 6,
+      "value": "\"SFMC\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1088,
+      "length": 6,
+      "value": "\"$_rf\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1229,
+      "length": 3,
+      "value": "112"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1398,
+      "length": 12,
+      "value": "\"User-Agent\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1440,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1486,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1535,
+      "length": 20,
+      "value": "\"X-Subscriber-Token\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1606,
+      "length": 22,
+      "value": "\"x-sfdc-mobile-app-id\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1658,
+      "length": 18,
+      "value": "\"x-sfdc-tenant-id\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1708,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Utility\/GlobalConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1753,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 365,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 452,
+      "length": 5,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 499,
+      "length": 4,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/AdvancedPush\/Common\/ClientExecutionProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 329,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 751,
+      "length": 18,
+      "value": "\"ServiceExtension\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 797,
+      "length": 18,
+      "value": "\"ContentExtension\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 927,
+      "length": 8,
+      "value": "\"Module\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 973,
+      "length": 16,
+      "value": "\"ServiceGeneral\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1026,
+      "length": 15,
+      "value": "\"ServiceWorker\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1078,
+      "length": 15,
+      "value": "\"Decompression\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1131,
+      "length": 17,
+      "value": "\"DeliveryReceipt\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1179,
+      "length": 9,
+      "value": "\"Network\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1230,
+      "length": 20,
+      "value": "\"CarouselAttachment\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1288,
+      "length": 16,
+      "value": "\"ContentGeneral\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1332,
+      "length": 4,
+      "value": "\"UI\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2156,
+      "length": 14,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2180,
+      "length": 13,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2203,
+      "length": 13,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2226,
+      "length": 14,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2250,
+      "length": 7,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2267,
+      "length": 18,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2336,
+      "length": 14,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/Common\/Logger\/LoggerEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2360,
+      "length": 4,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/NewEvents\/Modules\/MCE\/MCEDeliveryReceiptRequestResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1404,
+      "length": 31,
+      "value": "\"\/devicestatistics\/v1\/analytic\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/NewEvents\/DeliveryReceiptProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 365,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/NewEvents\/DeliveryReceiptProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 708,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/NewEvents\/DeliveryReceiptProcessor.swift",
+      "kind": "Dictionary",
+      "offset": 908,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/Worker\/ServiceExtensionConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 20,
+      "value": "\".service.extension\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/Worker\/ServiceExtensionConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 18,
+      "value": "\".concurrentQueue\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ServiceExtension\/Worker\/ServiceExtensionConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 14,
+      "value": "\".serialQueue\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/CarouselCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 516,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Utility\/UIHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 281,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Utility\/UIHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1055,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Utility\/ContentExtensionConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Utility\/ContentExtensionConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 421,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Utility\/ContentExtensionConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 459,
+      "length": 4,
+      "value": "14.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Utility\/ContentExtensionConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 496,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 532,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 579,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 637,
+      "length": 3,
+      "value": "9.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "Array",
+      "offset": 880,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1345,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1507,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1553,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1698,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1862,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2040,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2104,
+      "length": 20,
+      "value": "\"left_arrow_enabled\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2199,
+      "length": 21,
+      "value": "\"left_arrow_disabled\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2410,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2474,
+      "length": 21,
+      "value": "\"right_arrow_enabled\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2570,
+      "length": 22,
+      "value": "\"right_arrow_disabled\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Views\/CarouselButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 267,
+      "length": 5,
+      "value": "-16.0"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 3,
+      "value": "\"2\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
+      "length": 3,
+      "value": "\"3\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 3,
+      "value": "\"t\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 934,
+      "length": 3,
+      "value": "\"t\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 957,
+      "length": 4,
+      "value": "\"ul\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1251,
+      "length": 3,
+      "value": "\"t\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1274,
+      "length": 4,
+      "value": "\"ul\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1577,
+      "length": 3,
+      "value": "\"t\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1600,
+      "length": 4,
+      "value": "\"ul\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/MCExtensionSDK\/MCExtensionSDK\/ContentExtension\/Carousel\/Model\/CarouselActionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2292,
+      "length": 3,
+      "value": "\"t\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/Library\/Developer\/Xcode\/DerivedData\/ExtensionSDK-hanvuxkdapkzwjgfwygoihjuitkc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MCExtensionSDK\/IntermediateBuildFilesPath\/MCExtensionSDK.build\/Release-iphonesimulator\/MCExtensionSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 15,
+      "value": "\"failure_image\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/Library\/Developer\/Xcode\/DerivedData\/ExtensionSDK-hanvuxkdapkzwjgfwygoihjuitkc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MCExtensionSDK\/IntermediateBuildFilesPath\/MCExtensionSDK.build\/Release-iphonesimulator\/MCExtensionSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 894,
+      "length": 21,
+      "value": "\"left_arrow_disabled\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/Library\/Developer\/Xcode\/DerivedData\/ExtensionSDK-hanvuxkdapkzwjgfwygoihjuitkc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MCExtensionSDK\/IntermediateBuildFilesPath\/MCExtensionSDK.build\/Release-iphonesimulator\/MCExtensionSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1059,
+      "length": 20,
+      "value": "\"left_arrow_enabled\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/Library\/Developer\/Xcode\/DerivedData\/ExtensionSDK-hanvuxkdapkzwjgfwygoihjuitkc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MCExtensionSDK\/IntermediateBuildFilesPath\/MCExtensionSDK.build\/Release-iphonesimulator\/MCExtensionSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1227,
+      "length": 22,
+      "value": "\"right_arrow_disabled\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/Library\/Developer\/Xcode\/DerivedData\/ExtensionSDK-hanvuxkdapkzwjgfwygoihjuitkc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MCExtensionSDK\/IntermediateBuildFilesPath\/MCExtensionSDK.build\/Release-iphonesimulator\/MCExtensionSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1395,
+      "length": 21,
+      "value": "\"right_arrow_enabled\""
+    }
+  ]
+}

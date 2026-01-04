@@ -1,0 +1,28 @@
+PODS:
+  - MarketingCloud-ExtensionSDK (2.0.0)
+  - MarketingCloud-SFMCSdk (3.0.0)
+  - MarketingCloudSDK (10.0.0):
+    - MarketingCloud-SFMCSdk (~> 3.0.0)
+  - SFPushFeatureSDK (1.0.0)
+
+DEPENDENCIES:
+  - MarketingCloud-ExtensionSDK
+  - MarketingCloudSDK
+  - SFPushFeatureSDK
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MarketingCloud-ExtensionSDK
+    - MarketingCloud-SFMCSdk
+    - MarketingCloudSDK
+    - SFPushFeatureSDK
+
+SPEC CHECKSUMS:
+  MarketingCloud-ExtensionSDK: 29055339d617eea1e06e457d7a2f2f4f3e51a76f
+  MarketingCloud-SFMCSdk: 40ac1ed0b461924f7ca82dcaa9e967aa7bf5b3b6
+  MarketingCloudSDK: da2de8981b34688363db20e0222a9031c5d0808a
+  SFPushFeatureSDK: a3a783ec5ec66f337526cd7a05dfc5ab3eb2587e
+
+PODFILE CHECKSUM: f4237211a51e760b51e34e5a35aea4c5ae1d073d
+
+COCOAPODS: 1.16.2

@@ -7,7 +7,7 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>UNNotificationExtensionCategory</key>
-			<string>myNotificationCategory</string>
+			<string>CAROUSEL</string>
 			<key>UNNotificationExtensionInitialContentSizeRatio</key>
 			<real>1</real>
 			<key>UNNotificationExtensionUserInteractionEnabled</key>
@@ -18,7 +18,11 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).NotificationViewController</string>
 	</dict>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
 	<key>SF_MARKETINGCLOUD_APP_GROUP_KEY</key>
-	<string>group.com.exacttarget.la.dev.sfmarketingcloudsdk</string>
+	<string>group.com.mbunch</string>
 </dict>
 </plist>

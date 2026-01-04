@@ -10,7 +10,6 @@ import MarketingCloudSDK
 import SFMCSDK
 import CoreLocation
 import PushFeatureSDK
-import MobileAppMessagingSDK
 
 // MARK: - Notification Names
 
@@ -25,6 +24,7 @@ class HomeViewController: UIViewController {
     private var tableView: UITableView!
     private var locationUpdateObserver: NSObjectProtocol?
     private var locationToggleObserver: NSObjectProtocol?
+    private var pnReceivedObserver: NSObjectProtocol?
     private var currentLocationText: String = "Location not yet updated"
     
     // MARK: - Section Data
@@ -128,6 +128,7 @@ class HomeViewController: UIViewController {
     // MARK: - Lifecycle
     
     deinit {
+        NotificationCenter.default.removeObserver(self, name: .NotificationEvent, object: nil)
         if let observer = locationUpdateObserver {
             NotificationCenter.default.removeObserver(observer)
         }
@@ -141,6 +142,11 @@ class HomeViewController: UIViewController {
         
         title = "MobilePush SDK Learning App"
         view.backgroundColor = .white
+        
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(handleNotificiationEvent(_:)),
+            name: .NotificationEvent, object: nil)
         
         setupTableView()
         setupLocationObserver()
@@ -199,6 +205,27 @@ class HomeViewController: UIViewController {
                 self?.currentLocationText = enabled ? "Location enabled, waiting for update..." : "Location disabled"
                 self?.tableView.reloadData()
             }
+        }
+    }
+    
+    @objc private func handleNotificiationEvent(_ notification: Notification) {
+        let userInfo: [AnyHashable: Any] = notification.userInfo ?? [:]
+        let eventType: String = userInfo["NotificationEventType"] as? String ?? "Alert"
+        print("Notification Event Type: \(eventType)")
+        switch(eventType){
+        case "Alert":
+            showAlert(title: userInfo["title"] as! String , message: userInfo["body"] as! String)
+            break
+        case "ShowUrl":
+            let url: URL = userInfo["url"] as! URL
+            DispatchQueue.main.async {
+                UIApplication.shared.open(url, options: [:], completionHandler: { success in
+                    print("Open \(url): \(success)")
+                })
+            }
+            break
+        default:
+            break
         }
     }
     
@@ -269,19 +296,7 @@ class HomeViewController: UIViewController {
     }
 
     private func copyMAMDeviceID() {
-        MobileAppMessaging.requestSdk { [weak self] mam in
-            guard let deviceID = mam?.deviceIdentifier() else {
-                DispatchQueue.main.async {
-                    self?.showAlert(title: "Not Available", message: "MAM Device ID not available yet")
-                }
-                return
-            }
-            
-            UIPasteboard.general.string = deviceID
-            DispatchQueue.main.async {
-                self?.showAlert(title: "Copied", message: "MAM Device ID:\n\(deviceID)")
-            }
-        }
+        return
     }
     
     private func copyPushToken() {
@@ -292,7 +307,6 @@ class HomeViewController: UIViewController {
                 }
                 return
             }
-            
             UIPasteboard.general.string = token
             DispatchQueue.main.async {
                 self?.showAlert(title: "Copied", message: "Push Token copied to clipboard:\n\n\(token)")
@@ -483,3 +497,4 @@ extension HomeViewController: UITableViewDelegate {
         }
     }
 }
+

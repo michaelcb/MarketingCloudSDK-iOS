@@ -1,0 +1,2170 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PushFeatureSDK",
+    "printedName": "PushFeatureSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushFeature",
+        "printedName": "PushFeature",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleName",
+                "printedName": "SFMCSDK.ModuleName",
+                "usr": "c:@M@SFMCSDK@E@SFMCSdkModuleName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(py)name",
+            "mangledName": "$s14PushFeatureSDK0aB0C4name7SFMCSDK10ModuleNameOvp",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "name",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleName",
+                    "printedName": "SFMCSDK.ModuleName",
+                    "usr": "c:@M@SFMCSDK@E@SFMCSdkModuleName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(im)name",
+                "mangledName": "$s14PushFeatureSDK0aB0C4name7SFMCSDK10ModuleNameOvg",
+                "moduleName": "PushFeatureSDK",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleName",
+                    "printedName": "SFMCSDK.ModuleName",
+                    "usr": "c:@M@SFMCSDK@E@SFMCSdkModuleName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(im)setName:",
+                "mangledName": "$s14PushFeatureSDK0aB0C4name7SFMCSDK10ModuleNameOvs",
+                "moduleName": "PushFeatureSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PushFeatureSDK0aB0C4name7SFMCSDK10ModuleNameOvM",
+                "mangledName": "$s14PushFeatureSDK0aB0C4name7SFMCSDK10ModuleNameOvM",
+                "moduleName": "PushFeatureSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "moduleVersion",
+            "printedName": "moduleVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(cpy)moduleVersion",
+            "mangledName": "$s14PushFeatureSDK0aB0C13moduleVersionSSvpZ",
+            "moduleName": "PushFeatureSDK",
+            "static": true,
+            "objc_name": "moduleVersion",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(cm)moduleVersion",
+                "mangledName": "$s14PushFeatureSDK0aB0C13moduleVersionSSvgZ",
+                "moduleName": "PushFeatureSDK",
+                "static": true,
+                "implicit": true,
+                "objc_name": "moduleVersion",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(cm)setModuleVersion:",
+                "mangledName": "$s14PushFeatureSDK0aB0C13moduleVersionSSvsZ",
+                "moduleName": "PushFeatureSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PushFeatureSDK0aB0C13moduleVersionSSvMZ",
+                "mangledName": "$s14PushFeatureSDK0aB0C13moduleVersionSSvMZ",
+                "moduleName": "PushFeatureSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stateProperties",
+            "printedName": "stateProperties",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(cpy)stateProperties",
+            "mangledName": "$s14PushFeatureSDK0aB0C15statePropertiesSDyS2SGSgvpZ",
+            "moduleName": "PushFeatureSDK",
+            "static": true,
+            "objc_name": "stateProperties",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(cm)stateProperties",
+                "mangledName": "$s14PushFeatureSDK0aB0C15statePropertiesSDyS2SGSgvgZ",
+                "moduleName": "PushFeatureSDK",
+                "static": true,
+                "objc_name": "stateProperties",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(cm)setStateProperties:",
+                "mangledName": "$s14PushFeatureSDK0aB0C15statePropertiesSDyS2SGSgvsZ",
+                "moduleName": "PushFeatureSDK",
+                "static": true,
+                "objc_name": "setStateProperties:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PushFeatureSDK0aB0C15statePropertiesSDyS2SGSgvMZ",
+                "mangledName": "$s14PushFeatureSDK0aB0C15statePropertiesSDyS2SGSgvMZ",
+                "moduleName": "PushFeatureSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logger",
+            "printedName": "logger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleLogger",
+                "printedName": "SFMCSDK.ModuleLogger",
+                "usr": "c:@M@SFMCSDK@objc(cs)SFMCSdkModuleLogger"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(cpy)logger",
+            "mangledName": "$s14PushFeatureSDK0aB0C6logger7SFMCSDK12ModuleLoggerCvpZ",
+            "moduleName": "PushFeatureSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleLogger",
+                    "printedName": "SFMCSDK.ModuleLogger",
+                    "usr": "c:@M@SFMCSDK@objc(cs)SFMCSdkModuleLogger"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(cm)logger",
+                "mangledName": "$s14PushFeatureSDK0aB0C6logger7SFMCSDK12ModuleLoggerCvgZ",
+                "moduleName": "PushFeatureSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initModule",
+            "printedName": "initModule(config:components:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any SFMCSDK.SFMCModule)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SFMCModule",
+                    "printedName": "any SFMCSDK.SFMCModule",
+                    "usr": "c:@M@SFMCSDK@objc(pl)SFMCModule"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleConfig",
+                "printedName": "any SFMCSDK.ModuleConfig",
+                "usr": "c:@M@SFMCSDK@objc(pl)SFMCSdkModuleConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFMCSdkComponents",
+                "printedName": "SFMCSDK.SFMCSdkComponents",
+                "usr": "c:@M@SFMCSDK@objc(cs)SFMCSdkComponents"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(cm)initModuleWithConfig:components:",
+            "mangledName": "$s14PushFeatureSDK0aB0C10initModule6config10components7SFMCSDK10SFMCModule_pSgAG0E6Config_p_AG17SFMCSdkComponentsCtFZ",
+            "moduleName": "PushFeatureSDK",
+            "static": true,
+            "objc_name": "initModuleWithConfig:components:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestSdk",
+            "printedName": "requestSdk(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any PushFeatureSDK.PushFeatureApi)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PushFeatureSDK.PushFeatureApi)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PushFeatureApi",
+                        "printedName": "any PushFeatureSDK.PushFeatureApi",
+                        "usr": "c:@M@PushFeatureSDK@objc(pl)SFPushFeatureApi"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(cm)requestSdk:",
+            "mangledName": "$s14PushFeatureSDK0aB0C10requestSdkyyyAA0aB3Api_pSgcFZ",
+            "moduleName": "PushFeatureSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "receive",
+            "printedName": "receive(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Message",
+                "printedName": "SFMCSDK.Message",
+                "usr": "c:@M@SFMCSDK@objc(cs)SFMCSdkMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(im)receiveWithMessage:",
+            "mangledName": "$s14PushFeatureSDK0aB0C7receive7messagey7SFMCSDK7MessageC_tF",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "receiveWithMessage:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PushFeature",
+                "printedName": "PushFeatureSDK.PushFeature",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature(im)init",
+            "mangledName": "$s14PushFeatureSDK0aB0CACycfc",
+            "moduleName": "PushFeatureSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setDeviceToken",
+            "printedName": "setDeviceToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PushFeatureSDK@objc(cs)SFPushFeature(im)setDeviceToken:",
+            "mangledName": "$s14PushFeatureSDK0aB0C14setDeviceTokenyy10Foundation4DataVF",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "setDeviceToken:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deviceToken",
+            "printedName": "deviceToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PushFeatureSDK@objc(cs)SFPushFeature(im)deviceToken",
+            "mangledName": "$s14PushFeatureSDK0aB0C11deviceTokenSSSgyF",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "deviceToken",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPushEnabled",
+            "printedName": "setPushEnabled(pushEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PushFeatureSDK@objc(cs)SFPushFeature(im)setPushEnabledWithPushEnabled:",
+            "mangledName": "$s14PushFeatureSDK0aB0C03setA7Enabled04pushE0ySb_tF",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "setPushEnabledWithPushEnabled:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isPushEnabled",
+            "printedName": "isPushEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PushFeatureSDK@objc(cs)SFPushFeature(im)isPushEnabled",
+            "mangledName": "$s14PushFeatureSDK0aB0C02isA7EnabledSbyF",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "isPushEnabled",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNotificationResponse",
+            "printedName": "setNotificationResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PushFeatureSDK@objc(cs)SFPushFeature(im)setNotificationResponse:",
+            "mangledName": "$s14PushFeatureSDK0aB0C23setNotificationResponseyySo014UNNotificationF0CF",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "setNotificationResponse:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificationResponse",
+            "printedName": "notificationResponse()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UserNotifications.UNNotificationResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationResponse",
+                    "printedName": "UserNotifications.UNNotificationResponse",
+                    "usr": "c:objc(cs)UNNotificationResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PushFeatureSDK@objc(cs)SFPushFeature(im)notificationResponse",
+            "mangledName": "$s14PushFeatureSDK0aB0C20notificationResponseSo014UNNotificationE0CSgyF",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "notificationResponse",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNotificationUserInfo",
+            "printedName": "setNotificationUserInfo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PushFeatureSDK@objc(cs)SFPushFeature(im)setNotificationUserInfo:",
+            "mangledName": "$s14PushFeatureSDK0aB0C23setNotificationUserInfoyySDys11AnyHashableVypGF",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "setNotificationUserInfo:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificationUserInfo",
+            "printedName": "notificationUserInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PushFeatureSDK@objc(cs)SFPushFeature(im)notificationUserInfo",
+            "mangledName": "$s14PushFeatureSDK0aB0C20notificationUserInfoSDys11AnyHashableVypGyF",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "notificationUserInfo",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setURLHandlingDelegate",
+            "printedName": "setURLHandlingDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLHandlingDelegate",
+                "printedName": "any SFMCSDK.URLHandlingDelegate",
+                "usr": "c:@M@SFMCSDK@objc(pl)SFMCSdkURLHandlingDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PushFeatureSDK@objc(cs)SFPushFeature(im)setURLHandlingDelegate:",
+            "mangledName": "$s14PushFeatureSDK0aB0C22setURLHandlingDelegateyy7SFMCSDK0eF0_pF",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "setURLHandlingDelegate:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIdentity",
+            "printedName": "getIdentity()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any SFMCSDK.ModuleIdentity)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleIdentity",
+                    "printedName": "any SFMCSDK.ModuleIdentity",
+                    "usr": "c:@M@SFMCSDK@objc(pl)SFMCSdkModuleIdentity"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PushFeatureSDK@objc(cs)SFPushFeature(im)getIdentity",
+            "mangledName": "$s14PushFeatureSDK0aB0C11getIdentity7SFMCSDK06ModuleE0_pSgyF",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "getIdentity",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "internalTearDown",
+            "printedName": "internalTearDown()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PushFeatureSDK@objc(cs)SFPushFeature(im)internalTearDown",
+            "mangledName": "$s14PushFeatureSDK0aB0C16internalTearDownyyF",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "internalTearDown",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "SPIAccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "PrivateTearDown"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tearDownModule",
+            "printedName": "tearDownModule()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PushFeatureSDK@objc(cs)SFPushFeature(cm)tearDownModule",
+            "mangledName": "$s14PushFeatureSDK0aB0C14tearDownModuleyyFZ",
+            "moduleName": "PushFeatureSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "SPIAccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "PrivateTearDown"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeature",
+        "mangledName": "$s14PushFeatureSDK0aB0C",
+        "moduleName": "PushFeatureSDK",
+        "objc_name": "SFPushFeature",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SFMCModule",
+            "printedName": "SFMCModule",
+            "usr": "c:@M@SFMCSDK@objc(pl)SFMCModule",
+            "mangledName": "$s7SFMCSDK10SFMCModuleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Subscriber",
+            "printedName": "Subscriber",
+            "usr": "c:@M@SFMCSDK@objc(pl)Subscriber",
+            "mangledName": "$s7SFMCSDK10SubscriberP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Publisher",
+            "printedName": "Publisher",
+            "usr": "s:7SFMCSDK9PublisherP",
+            "mangledName": "$s7SFMCSDK9PublisherP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PushFeatureApi",
+            "printedName": "PushFeatureApi",
+            "usr": "c:@M@PushFeatureSDK@objc(pl)SFPushFeatureApi",
+            "mangledName": "$s14PushFeatureSDK0aB3ApiP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PushFeatureProtocol",
+            "printedName": "PushFeatureProtocol",
+            "usr": "c:@M@SFMCSDK@objc(pl)PushFeatureProtocol",
+            "mangledName": "$s7SFMCSDK19PushFeatureProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushFeatureApi",
+        "printedName": "PushFeatureApi",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setDeviceToken",
+            "printedName": "setDeviceToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(pl)SFPushFeatureApi(im)setDeviceToken:",
+            "mangledName": "$s14PushFeatureSDK0aB3ApiP14setDeviceTokenyy10Foundation4DataVF",
+            "moduleName": "PushFeatureSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PushFeatureSDK.PushFeatureApi>",
+            "sugared_genericSig": "<Self where Self : PushFeatureSDK.PushFeatureApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deviceToken",
+            "printedName": "deviceToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(pl)SFPushFeatureApi(im)deviceToken",
+            "mangledName": "$s14PushFeatureSDK0aB3ApiP11deviceTokenSSSgyF",
+            "moduleName": "PushFeatureSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PushFeatureSDK.PushFeatureApi>",
+            "sugared_genericSig": "<Self where Self : PushFeatureSDK.PushFeatureApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPushEnabled",
+            "printedName": "setPushEnabled(pushEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(pl)SFPushFeatureApi(im)setPushEnabledWithPushEnabled:",
+            "mangledName": "$s14PushFeatureSDK0aB3ApiP03setA7Enabled04pushF0ySb_tF",
+            "moduleName": "PushFeatureSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PushFeatureSDK.PushFeatureApi>",
+            "sugared_genericSig": "<Self where Self : PushFeatureSDK.PushFeatureApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isPushEnabled",
+            "printedName": "isPushEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(pl)SFPushFeatureApi(im)isPushEnabled",
+            "mangledName": "$s14PushFeatureSDK0aB3ApiP02isA7EnabledSbyF",
+            "moduleName": "PushFeatureSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PushFeatureSDK.PushFeatureApi>",
+            "sugared_genericSig": "<Self where Self : PushFeatureSDK.PushFeatureApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNotificationResponse",
+            "printedName": "setNotificationResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(pl)SFPushFeatureApi(im)setNotificationResponse:",
+            "mangledName": "$s14PushFeatureSDK0aB3ApiP23setNotificationResponseyySo014UNNotificationG0CF",
+            "moduleName": "PushFeatureSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PushFeatureSDK.PushFeatureApi>",
+            "sugared_genericSig": "<Self where Self : PushFeatureSDK.PushFeatureApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificationResponse",
+            "printedName": "notificationResponse()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UserNotifications.UNNotificationResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationResponse",
+                    "printedName": "UserNotifications.UNNotificationResponse",
+                    "usr": "c:objc(cs)UNNotificationResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(pl)SFPushFeatureApi(im)notificationResponse",
+            "mangledName": "$s14PushFeatureSDK0aB3ApiP20notificationResponseSo014UNNotificationF0CSgyF",
+            "moduleName": "PushFeatureSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PushFeatureSDK.PushFeatureApi>",
+            "sugared_genericSig": "<Self where Self : PushFeatureSDK.PushFeatureApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNotificationUserInfo",
+            "printedName": "setNotificationUserInfo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(pl)SFPushFeatureApi(im)setNotificationUserInfo:",
+            "mangledName": "$s14PushFeatureSDK0aB3ApiP23setNotificationUserInfoyySDys11AnyHashableVypGF",
+            "moduleName": "PushFeatureSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PushFeatureSDK.PushFeatureApi>",
+            "sugared_genericSig": "<Self where Self : PushFeatureSDK.PushFeatureApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificationUserInfo",
+            "printedName": "notificationUserInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(pl)SFPushFeatureApi(im)notificationUserInfo",
+            "mangledName": "$s14PushFeatureSDK0aB3ApiP20notificationUserInfoSDys11AnyHashableVypGyF",
+            "moduleName": "PushFeatureSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PushFeatureSDK.PushFeatureApi>",
+            "sugared_genericSig": "<Self where Self : PushFeatureSDK.PushFeatureApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setURLHandlingDelegate",
+            "printedName": "setURLHandlingDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLHandlingDelegate",
+                "printedName": "any SFMCSDK.URLHandlingDelegate",
+                "usr": "c:@M@SFMCSDK@objc(pl)SFMCSdkURLHandlingDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(pl)SFPushFeatureApi(im)setURLHandlingDelegate:",
+            "mangledName": "$s14PushFeatureSDK0aB3ApiP22setURLHandlingDelegateyy7SFMCSDK0fG0_pF",
+            "moduleName": "PushFeatureSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PushFeatureSDK.PushFeatureApi>",
+            "sugared_genericSig": "<Self where Self : PushFeatureSDK.PushFeatureApi>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@PushFeatureSDK@objc(pl)SFPushFeatureApi",
+        "mangledName": "$s14PushFeatureSDK0aB3ApiP",
+        "moduleName": "PushFeatureSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "SFPushFeatureApi",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushFeatureConfig",
+        "printedName": "PushFeatureConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "trackScreens",
+            "printedName": "trackScreens",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfig(py)trackScreens",
+            "mangledName": "$s14PushFeatureSDK0aB6ConfigC12trackScreensSbvp",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "trackScreens",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfig(im)trackScreens",
+                "mangledName": "$s14PushFeatureSDK0aB6ConfigC12trackScreensSbvg",
+                "moduleName": "PushFeatureSDK",
+                "implicit": true,
+                "objc_name": "trackScreens",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleName",
+                "printedName": "SFMCSDK.ModuleName",
+                "usr": "c:@M@SFMCSDK@E@SFMCSdkModuleName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfig(py)name",
+            "mangledName": "$s14PushFeatureSDK0aB6ConfigC4name7SFMCSDK10ModuleNameOvp",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "name",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleName",
+                    "printedName": "SFMCSDK.ModuleName",
+                    "usr": "c:@M@SFMCSDK@E@SFMCSdkModuleName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfig(im)name",
+                "mangledName": "$s14PushFeatureSDK0aB6ConfigC4name7SFMCSDK10ModuleNameOvg",
+                "moduleName": "PushFeatureSDK",
+                "implicit": true,
+                "objc_name": "name",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appId",
+            "printedName": "appId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfig(py)appId",
+            "mangledName": "$s14PushFeatureSDK0aB6ConfigC5appIdSSvp",
+            "moduleName": "PushFeatureSDK",
+            "objc_name": "appId",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfig(im)appId",
+                "mangledName": "$s14PushFeatureSDK0aB6ConfigC5appIdSSvg",
+                "moduleName": "PushFeatureSDK",
+                "implicit": true,
+                "objc_name": "appId",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PushFeatureConfig",
+                "printedName": "PushFeatureSDK.PushFeatureConfig",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfig(im)init",
+            "mangledName": "$s14PushFeatureSDK0aB6ConfigCACycfc",
+            "moduleName": "PushFeatureSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfig",
+        "mangledName": "$s14PushFeatureSDK0aB6ConfigC",
+        "moduleName": "PushFeatureSDK",
+        "objc_name": "SFPushFeatureConfig",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ModuleConfig",
+            "printedName": "ModuleConfig",
+            "usr": "c:@M@SFMCSDK@objc(pl)SFMCSdkModuleConfig",
+            "mangledName": "$s7SFMCSDK12ModuleConfigP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PushFeatureConfigBuilder",
+        "printedName": "PushFeatureConfigBuilder",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PushFeatureConfig",
+                "printedName": "PushFeatureSDK.PushFeatureConfig",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfig"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfigBuilder(im)build",
+            "mangledName": "$s14PushFeatureSDK0aB13ConfigBuilderC5buildAA0abD0CyF",
+            "moduleName": "PushFeatureSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setApplicationControlsBadging",
+            "printedName": "setApplicationControlsBadging(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PushFeatureConfigBuilder",
+                "printedName": "PushFeatureSDK.PushFeatureConfigBuilder",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfigBuilder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfigBuilder(im)setApplicationControlsBadging:",
+            "mangledName": "$s14PushFeatureSDK0aB13ConfigBuilderC29setApplicationControlsBadgingyACSbF",
+            "moduleName": "PushFeatureSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PushFeatureConfigBuilder",
+                "printedName": "PushFeatureSDK.PushFeatureConfigBuilder",
+                "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfigBuilder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfigBuilder(im)init",
+            "mangledName": "$s14PushFeatureSDK0aB13ConfigBuilderCACycfc",
+            "moduleName": "PushFeatureSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PushFeatureSDK@objc(cs)SFPushFeatureConfigBuilder",
+        "mangledName": "$s14PushFeatureSDK0aB13ConfigBuilderC",
+        "moduleName": "PushFeatureSDK",
+        "objc_name": "SFPushFeatureConfigBuilder",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SFMCSDK",
+        "printedName": "SFMCSDK",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppGroupSDK",
+        "printedName": "AppGroupSDK",
+        "declKind": "Import",
+        "moduleName": "PushFeatureSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Models\/PushFeatureModuleData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 480,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Module\/PushFeature.swift",
+      "kind": "StringLiteral",
+      "offset": 926,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Module\/PushFeature.swift",
+      "kind": "StringLiteral",
+      "offset": 1682,
+      "length": 25,
+      "value": "\"pushfeature.statusQueue\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Module\/PushFeature.swift",
+      "kind": "StringLiteral",
+      "offset": 2198,
+      "length": 28,
+      "value": "\"pushfeature.singletonQueue\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Module\/PushFeature.swift",
+      "kind": "StringLiteral",
+      "offset": 2763,
+      "length": 26,
+      "value": "\"pushfeature.serviceQueue\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Module\/PushFeature.swift",
+      "kind": "Array",
+      "offset": 2872,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Module\/PushFeature.swift",
+      "kind": "StringLiteral",
+      "offset": 3232,
+      "length": 32,
+      "value": "\"pushfeature.DeferredCallsQueue\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Module\/PushFeature.swift",
+      "kind": "StringLiteral",
+      "offset": 3565,
+      "length": 26,
+      "value": "\"pushfeature.serviceQueue\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Configuration\/PushFeatureConfigBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Configuration\/PushFeatureConfigBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 585,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Storage\/PushFeatureUserDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 555,
+      "length": 23,
+      "value": "\"pushFeatureModuleData\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Storage\/PushFeatureUserDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 1396,
+      "length": 53,
+      "value": "\"com.salesforce.mc.PushFeatureModuleUserDefaultSuite\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Utils\/PushFeatureConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 49,
+      "value": "\"com.salesforce.marketingcloud.pushfeaturemodule\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Utils\/PushFeatureConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Utils\/PushFeatureConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 6,
+      "value": "\"_sid\""
+    },
+    {
+      "filePath": "\/Users\/iosadmin\/mobeWorkspace\/push-feature-module\/PushFeatureSDK\/Utils\/PushFeatureConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 6,
+      "value": "\"SFMC\""
+    }
+  ]
+}

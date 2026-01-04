@@ -299,7 +299,7 @@ extension RegistrationViewController: UITableViewDataSource {
         
         switch indexPath.row {
         case 0:
-            cell.configure(placeholder: "Profile ID", text: profileId) { [weak self] newValue in
+            cell.configure(placeholder: "Contact Key", text: profileId) { [weak self] newValue in
                 self?.profileId = newValue
                 self?.updateSaveButtonState()
             }

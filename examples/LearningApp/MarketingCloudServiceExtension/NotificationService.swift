@@ -11,15 +11,16 @@ class NotificationService: SFMCNotificationService {
     // Please use this method to enable logging, change logging levels etc, if required
     override func sfmcProvideConfig() -> SFNotificationServiceConfig {
         var logLevel: LogLevel = .none
-#if DEBUG
+//#if DEBUG
         logLevel = .debug
-#endif
-        return SFNotificationServiceConfig(logLevel: logLevel)
+//#endif
+        return SFNotificationServiceConfig(logLevel: logLevel,shouldShowCarouselThumbnail: false)
     }
 
     override func sfmcDidReceive(_ request: UNNotificationRequest,
                                  mutableContent: UNMutableNotificationContent,
                                  withContentHandler contentHandler: @escaping ([AnyHashable: Any]?) -> Void) {
+        print("Entering Service Extension sfmcDidReceive")
         if let mediaUrlString = mutableContent.userInfo[NotificationService.mediaUrlKey] as? String {
             self.downloadMediaAndSetAttachment(for: mediaUrlString, mutableContent: mutableContent) { [weak self] isAttachmentAddSuccess in
                 if !isAttachmentAddSuccess {

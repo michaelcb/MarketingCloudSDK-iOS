@@ -1,0 +1,11 @@
+framework module PushFeatureSDK {
+  umbrella header "PushFeatureSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module PushFeatureSDK.Swift {
+  header "PushFeatureSDK-Swift.h"
+  requires objc
+}

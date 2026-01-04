@@ -25,8 +25,6 @@ class InboxTableViewController: UITableViewController {
             action: #selector(done)
         )
         
-        navigationItem.rightBarButtonItem = editButtonItem
-        
         // Setup refresh control
         refreshControl = UIRefreshControl()
         refreshControl?.addTarget(self, action: #selector(refresh), for: .valueChanged)
@@ -140,12 +138,24 @@ class InboxTableViewController: UITableViewController {
             mp?.trackMessageOpened(inboxMessage)
             _ = mp?.markMessageRead(inboxMessage)
         }
-        
         // Open URL if available
         if let urlString = inboxMessage["url"] as? String,
            !urlString.isEmpty,
            let url = URL(string: urlString) {
             UIApplication.shared.open(url)
+        }
+        else{
+            let vc = InboxMessageViewController(msg: inboxMessage)
+            vc.onDelete = { [weak self] msg in
+                MarketingCloudSdk.requestSdk { [weak self] mp in
+                    _ = mp?.markMessageDeleted(inboxMessage)
+                    DispatchQueue.main.async {
+                        self?.reloadData()
+                    }
+                }
+            }
+            let nav = UINavigationController(rootViewController: vc)
+            present(nav, animated: true)
         }
         
         reloadData()

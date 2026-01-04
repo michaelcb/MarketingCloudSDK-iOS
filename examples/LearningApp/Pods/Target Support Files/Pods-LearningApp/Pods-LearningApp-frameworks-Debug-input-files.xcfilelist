@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-LearningApp/Pods-LearningApp-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MarketingCloud-SFMCSdk/SFMCSDK.framework/SFMCSDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MarketingCloudSDK/MarketingCloudSDK.framework/MarketingCloudSDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SFPushFeatureSDK/PushFeatureSDK.framework/PushFeatureSDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MarketingCloud-ExtensionSDK/MCExtensionSDK.framework/MCExtensionSDK

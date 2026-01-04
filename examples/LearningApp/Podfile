@@ -7,6 +7,7 @@ target 'LearningApp' do
 
   # Pods for LearningApp
   pod 'MarketingCloudSDK'
+  pod 'SFPushFeatureSDK'
 end
 
 target 'MarketingCloudServiceExtension' do
